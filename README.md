@@ -42,4 +42,3 @@ For the test phase final model will be released to hugging face and the acces an
 ## Contact
 For questions or collaboration, reach out to:  
 **Mirindra Fandresena Randriamanantena** – [mirindraf@aims.ac.za](mailto:mirindraf@aims.ac.za)  
-GitHub: [https://github.com/username/repository](https://github.com/username/repository)
