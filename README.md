@@ -3,7 +3,7 @@
 This repository contains the notebooks and code for **SemEval 2026 Task 9**, focusing on detecting polarized text across multiple languages and contexts.
 
 ## Repository Structure
-- `polarizatio/` – Contains Jupyter notebooks for each subtask.
+- `polarization/` – Contains Jupyter notebooks for each subtask.
 - – Place the `dev_phase` folder here to run the notebooks.
 
 
@@ -12,7 +12,6 @@ To run the notebooks:
 
 1. Ensure the `dev_phase` folder is located in the same directory as the notebooks.
 2. Update the `workdir` variables in each notebook to point to your working directory.
-3. Install required dependencies (e.g., using `requirements.txt` if provided).
 
 ## Subtasks
 - **Subtask 1:** Binary polarization detection (English, Swahili, Hausa)  
