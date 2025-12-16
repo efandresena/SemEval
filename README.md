@@ -1,9 +1,10 @@
 # SemEval 2026 Task 9: Detecting Multilingual, Multicultural, and Multievent Online Polarization
 
+!!!!!!- Some notebooks may not render on github, it is advisable to clone the repository  or download the notebooks (starter and notebook 1) 
 This repository contains the notebooks and code for **SemEval 2026 Task 9**, focusing on detecting polarized text across multiple languages and contexts.
 
 ## Repository Structure
- – Contains Jupyter notebooks for each subtask.
+ – Contains Jupyter notebooks for each subtask. And for each approach . 
 - `dev_phase` in the same folder here to run the notebooks.
 
 
