@@ -40,7 +40,7 @@ Running the notebooks end-to-end will:
 Clone the repository and install requirements:
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/efandresena/SemEval.git
 cd SemEval
 pip install -r requirements.txt
 ```
