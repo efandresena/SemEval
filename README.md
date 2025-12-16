@@ -45,10 +45,14 @@ cd SemEval
 pip install -r requirements.txt
 ```
 
-## Model Names
-- mirindraf/aims-sentiment-analysis
+## Model Names Subtask 1 
+- mirindraf/aims-sentiment-analysis  %This is for english only
 - mirindraf/aims-sentiment-analysis-hau
 - mirindraf/bert-base-uncased-polarization
+## Model Names Subtask 2
+Under development
+## Model Names Subtask 3
+Under development
 
 ## Usage
 It is preferable to clone the repository in colab so that no need to install for requirements.
