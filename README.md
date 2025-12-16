@@ -42,4 +42,34 @@ During the test phase final model. An application will be released to upload/dow
 
 ## Contact
 For questions or collaboration, reach out to:  
-**Mirindra Fandresena Randriamanantena** – [mirindraf@aims.ac.za](mailto:mirindraf@aims.ac.za)  
+**Mirindra Fandresena Randriamanantena** – [mirindraf@aims.ac.za](mailto:mirindraf@aims.ac.za)
+
+# AIMS ML SemEval Polarization Project
+
+## Installation
+
+Clone the repository and install requirements:
+
+```bash
+git clone <repo-url>
+cd SemEval
+pip install -r requirements.txt
+```
+
+## Model Names
+- mirindraf/aims-sentiment-analysis
+- mirindraf/aims-sentiment-analysis-hau
+- mirindraf/bert-base-uncased-polarization
+
+## Usage
+It is preferable to clone the repository in colab so that no need to install for requirements.
+ This is an example usage of locally.
+1. Prepare the path to the dev or test set .
+2. Edit `main.py` to set the correct model name and dev set path.
+3. Run:
+
+```bash
+python main.py
+```
+
+This will load the model and tokenizer, run predictions, and save the results to a CSV file.
