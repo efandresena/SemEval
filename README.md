@@ -33,18 +33,7 @@ Running the notebooks end-to-end will:
 2. Train models for each subtask.
 3.One Fastext model if one have hugging face account models can be saved, then can be uploaded to **Hugging Face** for deployment.
 
-## References
-- Lin et al., 2017. Focal Loss for Dense Object Detection.  
-- Conneau et al., 2020. XLM-RoBERTa: Large-Scale Multilingual Representation Learning.  
-
-## Future work
-During the test phase final model. An application will be released to upload/download the best model to hugging face and then acces to predict the test set.
-
-## Contact
-For questions or collaboration, reach out to:  
-**Mirindra Fandresena Randriamanantena** – [mirindraf@aims.ac.za](mailto:mirindraf@aims.ac.za)
-
-# AIMS ML SemEval Polarization Project
+# AIMS ML SemEval Polarization Projectv USAGE ON SUBTASK 1
 
 ## Installation
 
@@ -73,3 +62,15 @@ python main.py
 ```
 
 This will load the model and tokenizer, run predictions, and save the results to a CSV file.
+
+
+## References
+- Lin et al., 2017. Focal Loss for Dense Object Detection.  
+- Conneau et al., 2020. XLM-RoBERTa: Large-Scale Multilingual Representation Learning.  
+
+## Future work
+During the test phase final model. An application will be released to upload/download the best model to hugging face and then acces to predict the test set.
+
+## Contact
+For questions or collaboration, reach out to:  
+**Mirindra Fandresena Randriamanantena** – [mirindraf@aims.ac.za](mailto:mirindraf@aims.ac.za)
