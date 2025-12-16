@@ -3,15 +3,15 @@
 This repository contains the notebooks and code for **SemEval 2026 Task 9**, focusing on detecting polarized text across multiple languages and contexts.
 
 ## Repository Structure
-- `polarization/` – Contains Jupyter notebooks for each subtask.
-- – Place the `dev_phase` folder here to run the notebooks.
+ – Contains Jupyter notebooks for each subtask.
+- `dev_phase` in the same folder here to run the notebooks.
 
 
 ## Getting Started
 To run the notebooks:
 
 1. Ensure the `dev_phase` folder is located in the same directory as the notebooks.
-2. Update the `workdir` variables in each notebook to point to your working directory.
+2. Update the `workdir` variables in each notebook to point to your working directory(SemEval).
 
 ## Subtasks
 - **Subtask 1:** Binary polarization detection (English, Swahili, Hausa)  
@@ -19,6 +19,8 @@ To run the notebooks:
 - **Subtask 3:** Multilingual manifestation identification (English + Swahili)  
 
 Each notebook is self-contained and provides detailed steps for preprocessing, model training, and evaluation.
+
+For the with weight and without weight approach one must change the vakue of the argument of the function train in notebook 2 and 3.
 
 ## Models
 - The final models are based on transformer architectures, including **XLM-RoBERTa** and **RoBERTa-based sentiment models**.  
@@ -36,7 +38,7 @@ Running the notebooks end-to-end will:
 - Conneau et al., 2020. XLM-RoBERTa: Large-Scale Multilingual Representation Learning.  
 
 ## Future work
-For the test phase final model will be released to hugging face and the acces and use f it will be implemented here.
+During the test phase final model. An application will be released to upload/download the best model to hugging face and then acces to predict the test set.
 
 ## Contact
 For questions or collaboration, reach out to:  
