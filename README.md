@@ -54,18 +54,23 @@ Under development
 ## Model Names Subtask 3
 Under development
 
-## Usage
-It is preferable to clone the repository in colab so that no need to install for requirements.
- This is an example usage of locally.
+## Usage Local 
+
+This is an example usage of locally.
 1. Prepare the path to the dev or test set .
 2. Edit `main.py` to set the correct model name and dev set path.
 3. Run:
-
 ```bash
 python main.py
 ```
 
 This will load the model and tokenizer, run predictions, and save the results to a CSV file.
+
+## Usage on colab
+It is preferable to clone the repository in colab so that no need to install for requirements.
+```bash
+!git clone https://github.com/efandresena/SemEval.git
+```
 
 
 ## References
